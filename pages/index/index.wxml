@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">  
+  <map id="map" longitude="{{lng}}" latitude="{{lat}}" scale="12" show-location markers="{{markers}}" alpha="0.8"></map>
+  <text class="average">{{city}} pm2.5指数：{{pm25}} μg/m³</text>
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"regular",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "空气质量查询",
+    "navigationBarTextStyle":"#fff"
+  }
+}
