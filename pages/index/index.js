@@ -35,7 +35,8 @@ Page({
                 title: 'pm2.5值：' + district.pm2_5 + 'μg/m³',
                 width: 30,
                 height: 30,
-                iconPath: '/resources/pin.png'
+                iconPath: '/resources/pin.png',
+                callout: { content: JSON.stringify(district.pm2_5), borderRadius: 15, padding: 14, fontSize: 14, display: 'ALWAYS'}
               }
             }).filter(function (district) { return (!!district.latitude && !!district.longitude)})
             that.setData({markers: markers, city: cityData.area, pm25: cityData.pm2_5})
